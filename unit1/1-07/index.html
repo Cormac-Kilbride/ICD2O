@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<!-- ICSD2O Unit 1-05 HTML Cities -->
+<html lang="en-ca">
+<head></head>
+<meta charset="utf-8">
+<meta name="description" content="Brainrot meanings">
+<meta name="keywords" content="TRH, ICD2O">
+<meta name="author" content="Ms. Warriner">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Brainrot meanings</title>
+</head>
+<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+<link rel="stylesheet" href="https://code.getmdl.io/1.3.0/material.indigo-pink.min.css">
+</head>
+<style>
+  /* Style the element with the id "myHeader" */
+  #myHeader {
+    background-color: rgb(112, 179, 255);
+    color: Black;
+    padding: 40px;
+    text-align: center;
+  } 
+</style>
+
+<body style="background-color:rgb(75, 159, 255);">
+  <!--An element with a unique id -->
+  <h1 id="myHeader">Brainrot Meanings</h1>
+<!-- Flat button with ripple -->
+<!-- Left aligned menu below button -->
+<button id="demo-show-toast" class="mdl-button mdl-js-button mdl-button--raised" type="button">Click for Aura</button>
+<div id="demo-toast-example" class="mdl-js-snackbar mdl-snackbar">
+  <div class="mdl-snackbar__text"></div>
+  <button class="mdl-snackbar__action" type="button"></button>
+</div>
+<script>
+  (function () {
+    'use strict';
+    window['counter'] = 0;
+    var snackbarContainer = document.querySelector('#demo-toast-example');
+    var showToastButton = document.querySelector('#demo-show-toast');
+    showToastButton.addEventListener('click', function () {
+      'use strict';
+      var data = { message: 'Mr Aura ' + ++counter };
+      snackbarContainer.MaterialSnackbar.showSnackbar(data);
+    });
+  }());
+</script>
+
+<!-- Simple Textfield -->
+<form action="#">
+  <div class="mdl-textfield mdl-js-textfield">
+    <input class="mdl-textfield__input" type="text" id="sample1">
+    <label class="mdl-textfield__label" for="sample1">Enter brainrot...</label>
+  </div>
+</form>
+  <!-- Multiple element with same class -->
+<script defer src="https://code.getmdl.io/1.3.0/material.min.js"></script>
+<p>Brainrot sign link by Archer- https://archer-kim.github.io/ICD2O/ </p>
+</body>
